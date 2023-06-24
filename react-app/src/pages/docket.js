@@ -16,9 +16,12 @@ export default function DocketPage() {
         files && files.forEach(file => {
             formData.append("files", file);
         });
+        for (let key in values) {
+            if (key === 'files') { continue; }
+            formData.append(key, values[key]);
+        }
 
-
-        formData.append('title', title); 
+        // formData.append('title', title); 
 
         const res = await handleDocketAction(formData, data.id)
         console.log('Response -> ', res)
