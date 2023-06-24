@@ -1,0 +1,1 @@
+export const DOCKETS_QUERY_KEY = 'dockets'
