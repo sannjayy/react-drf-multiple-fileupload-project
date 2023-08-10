@@ -8,4 +8,4 @@ Demo Video URL: https://youtu.be/CEADYrll25w
 ---
 [![](https://img.shields.io/github/followers/sannjayy?style=social)](https://github.com/sannjayy)  
 Developed by *Sanjay Sikdar*.   
-- 📫 hello@znas.in
+- 📫 me@sanjaysidkar.dev
